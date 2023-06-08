@@ -1,0 +1,11 @@
+package com.ty;
+
+import javax.persistence.EntityManagerFactory;
+
+public class SaveMobileDetails {
+
+	public static void main(String[] args) {
+		EntityManagerFactory 
+	}
+
+}

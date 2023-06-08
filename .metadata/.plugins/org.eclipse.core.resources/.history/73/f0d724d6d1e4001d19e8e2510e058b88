@@ -1,0 +1,29 @@
+package com.ty;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+
+public class SaveMobileDetails {
+
+	public static void main(String[] args) {
+		EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("namitha");
+		EntityManager entityManager = entityManagerFactory.createEntityManager();
+		EntityTransaction entityTransaction = entityManager.getTransaction();
+		
+		Mobile mobile= new Mobile();
+		mobile.setBrand("Iphone");
+		mobile.setColor("lavender");
+		mobile.setCost(89000.00);
+		mobile.setRam("5GB");
+		
+		Mobile mobile1= new Mobile();
+		mobile1.setBrand("Iphone");
+		mobile1.setColor("lavender");
+		mobile1.setCost(89000.00);
+		mobile1.setRam("5GB");
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.ty;
+
+public class Mobile 
+{
+	private int id;
+	private String brand;
+	private String color;
+	private double cost;
+	private String Ram;
+	 private List<Sim> sims;
+}

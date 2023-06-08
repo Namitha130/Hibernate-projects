@@ -1,0 +1,76 @@
+package com.ty;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+
+public class SaveMobileDetails {
+
+	public static void main(String[] args) {
+		EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("namitha");
+		EntityManager entityManager = entityManagerFactory.createEntityManager();
+		EntityTransaction entityTransaction = entityManager.getTransaction();
+		
+		Mobile mobile= new Mobile();
+		mobile.setBrand("Iphone");
+		mobile.setColor("lavender");
+		mobile.setCost(89000.00);
+		mobile.setRam("5GB");
+		
+		Mobile mobile1= new Mobile();
+		mobile1.setBrand("Samsung");
+		mobile1.setColor("Black");
+		mobile1.setCost(69000.00);
+		mobile1.setRam("4GB");
+		
+		Sim sim = new Sim();
+		sim.setProvider("Jio");
+		sim.setType("5G");
+		sim.setCost(399);
+		sim.setPhno(9876543236l);
+		
+		Sim sim1 = new Sim();
+		sim1.setProvider("Airtel");
+		sim1.setType("5G");
+		sim1.setCost(499);
+		sim1.setPhno(9877743262l);
+		
+		Sim sim2 = new Sim();
+		sim2.setProvider("BSNL");
+		sim2.setType("3G");
+		sim2.setCost(299);
+		sim2.setPhno(9876544445l);
+		
+		Sim sim3 = new Sim();
+		sim3.setProvider("Vadaphone");
+		sim3.setType("4G");
+		sim3.setCost(399);
+		sim3.setPhno(987666326l);
+		
+		
+		List<Sim> list1 = new ArrayList<Sim>();
+		list1.add(sim);
+		list1.add(sim1);
+		
+		List<Sim> list2 = new ArrayList<Sim>();
+		list2.add(sim);
+		list2.add(sim1);
+		
+		mobile.setSims(list1);
+		mobile1.setSims(list2);
+		
+		entityTransaction.begin();
+		entityManager.persist(mobile);
+		entityManager.persist(mobile1);
+		entityManager.persist(sim);
+		entityManager.persist(sim1);
+		entityManager.persist(sim2);
+		entityManager.persist(sim3);
+		entityTransaction.commit();
+	}
+
+}

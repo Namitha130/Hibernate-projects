@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Namitha T P\eclipse-workspace-Hibernate\MANYTOONE\pom.xml"/>
+			<item value="C:\Users\Namitha T P\eclipse-workspace-Hibernate\ONETOMANY123\src\main\java\com\ty\GetAllData.java"/>
+			<item value="C:\Users\Namitha T P\eclipse-workspace-Hibernate\ONETOMANY\src\main\java\com\ty\DeleteMobiles.java"/>
+			<item value="C:\Users\Namitha T P\eclipse-workspace-Hibernate\MyStudent"/>
+			<item value="C:\Users\Namitha T P\eclipse-workspace-Hibernate\ONETOONE\src\main\java\com\ty\SavePersonDetails.java"/>
+			<item value="C:\Users\Namitha T P\eclipse-workspace-Hibernate\Developer\pom.xml"/>
+			<item value="C:\Users\Namitha T P\eclipse-workspace-Hibernate\MyHibernate123"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.ty"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="MANYTOMANY"/>
+			<item value="MANYTOONE"/>
+			<item value="ONETOMANY123"/>
+			<item value="ONETOONE123"/>
+			<item value="ONETOMANY"/>
+			<item value="ONETOONE"/>
+			<item value="Developer"/>
+			<item value="MyCourse"/>
+			<item value="MyStudent"/>
+			<item value="Customer"/>
+			<item value="Myhibee"/>
+			<item value="MyHibernate123"/>
+			<item value="MyHibernate1"/>
+			<item value="MyHibernate"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

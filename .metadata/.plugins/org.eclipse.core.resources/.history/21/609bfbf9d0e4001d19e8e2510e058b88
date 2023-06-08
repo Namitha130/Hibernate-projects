@@ -1,0 +1,9 @@
+package com.ty;
+
+public class SaveMobileDetails {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
